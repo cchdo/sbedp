@@ -60,7 +60,7 @@ And the sea bird data processing program should pop up.
 ## Building:
 The base image is ubuntu 24.04 with a very lightweight window manager, vnc server, and browser based control server.
 
-It installs [hangover](https://github.com/AndreRH/hangover) 10.6.1 and the runtime requirements (visual basic 2010 and 2012) for SBEDataProcessing using winetricks.
+It installs [hangover](https://github.com/AndreRH/hangover) 11.0 and the runtime requirements (visual basic 2010 and 2012) for SBEDataProcessing using winetricks.
 The SeaBird processing software is then copied to the correct place in the image along with the system registry.
 
 To build:
